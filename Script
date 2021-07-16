@@ -1,4 +1,5 @@
--- This is Edited In Visual Studio Code
+--This is Edited In Visual Studio Code
+ --Update 16/7/2021 Added INF Yield,Snow Hub And Bruh Hub
 
 -- Instances:
 
@@ -19,6 +20,9 @@ local TextLabel_3 = Instance.new("TextLabel")
 local Next = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
 local DarkHub = Instance.new("TextButton")
+local INFYield = Instance.new("TextButton")
+local SnowHub = Instance.new("TextButton")
+local BruhHub = Instance.new("TextButton")
 local hint = Instance.new("TextLabel")
 local Settings_2 = Instance.new("Frame")
 local Destroy = Instance.new("TextButton")
@@ -200,6 +204,45 @@ DarkHub.TextScaled = true
 DarkHub.TextSize = 14.000
 DarkHub.TextWrapped = true
 
+INFYield.Name = "INF Yield"
+INFYield.Parent = ScriptHubFrame
+INFYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+INFYield.BorderSizePixel = 0
+INFYield.Position = UDim2.new(0.0576576553, 0, 0.292887032, 0)
+INFYield.Size = UDim2.new(0, 120, 0, 34)
+INFYield.Font = Enum.Font.Arcade
+INFYield.Text = "INF Yield"
+INFYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+INFYield.TextScaled = true
+INFYield.TextSize = 14.000
+INFYield.TextWrapped = true
+
+SnowHub.Name = "Snow Hub"
+SnowHub.Parent = ScriptHubFrame
+SnowHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SnowHub.BorderSizePixel = 0
+SnowHub.Position = UDim2.new(0.392792791, 0, 0.292887032, 0)
+SnowHub.Size = UDim2.new(0, 120, 0, 34)
+SnowHub.Font = Enum.Font.Arcade
+SnowHub.Text = "Snow Hub"
+SnowHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+SnowHub.TextScaled = true
+SnowHub.TextSize = 14.000
+SnowHub.TextWrapped = true
+
+BruhHub.Name = "Bruh Hub"
+BruhHub.Parent = ScriptHubFrame
+BruhHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BruhHub.BorderSizePixel = 0
+BruhHub.Position = UDim2.new(0.731531501, 0, 0.292887032, 0)
+BruhHub.Size = UDim2.new(0, 120, 0, 34)
+BruhHub.Font = Enum.Font.Arcade
+BruhHub.Text = "Bruh Hub"
+BruhHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+BruhHub.TextScaled = true
+BruhHub.TextSize = 14.000
+BruhHub.TextWrapped = true
+
 hint.Name = "hint"
 hint.Parent = main
 hint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -269,7 +312,7 @@ TextLabel_4.TextWrapped = true
 
 -- Scripts:
 
-local function OKUGJM_fake_script() -- Home.LocalScript 
+local function FYWUVYC_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -279,8 +322,8 @@ local function OKUGJM_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
 	end)
 end
-coroutine.wrap(OKUGJM_fake_script)()
-local function HPTU_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(FYWUVYC_fake_script)()
+local function FMLR_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -290,8 +333,8 @@ local function HPTU_fake_script() -- ScriptHub.LocalScript
 		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
 	end)
 end
-coroutine.wrap(HPTU_fake_script)()
-local function VIAVSSC_fake_script() -- Settings.LocalScript 
+coroutine.wrap(FMLR_fake_script)()
+local function UMYTVIN_fake_script() -- Settings.LocalScript 
 	local script = Instance.new('LocalScript', Settings)
 
 	local SettingsFrame = script.Parent.Parent.Parent.Settings
@@ -307,14 +350,14 @@ local function VIAVSSC_fake_script() -- Settings.LocalScript
 	end)
 	
 end
-coroutine.wrap(VIAVSSC_fake_script)()
-local function QAUB_fake_script() -- user.LocalScript 
+coroutine.wrap(UMYTVIN_fake_script)()
+local function AHASK_fake_script() -- user.LocalScript 
 	local script = Instance.new('LocalScript', user)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(QAUB_fake_script)()
-local function GYQCHWK_fake_script() -- main.Dragify 
+coroutine.wrap(AHASK_fake_script)()
+local function PJQK_fake_script() -- main.Dragify 
 	local script = Instance.new('LocalScript', main)
 
 	local UIS = game:GetService("UserInputService")
@@ -355,16 +398,16 @@ local function GYQCHWK_fake_script() -- main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(GYQCHWK_fake_script)()
-local function ZFPXB_fake_script() -- BloxHub.LocalScript 
+coroutine.wrap(PJQK_fake_script)()
+local function HBJPK_fake_script() -- BloxHub.LocalScript 
 	local script = Instance.new('LocalScript', BloxHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(ZFPXB_fake_script)()
-local function CSMRD_fake_script() -- Next.LocalScript 
+coroutine.wrap(HBJPK_fake_script)()
+local function ZUHY_fake_script() -- Next.LocalScript 
 	local script = Instance.new('LocalScript', Next)
 
 	local Page2 = script.Parent.Parent.Parent.ScriptHubPage2
@@ -375,24 +418,48 @@ local function CSMRD_fake_script() -- Next.LocalScript
 		Page1.Visible = false
 	end)
 end
-coroutine.wrap(CSMRD_fake_script)()
-local function SOAKBE_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(ZUHY_fake_script)()
+local function OFYH_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 	end)
 end
-coroutine.wrap(SOAKBE_fake_script)()
-local function TIDIJN_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(OFYH_fake_script)()
+local function EFRF_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(TIDIJN_fake_script)()
-local function ZFXDSPG_fake_script() -- main.Toggle 
+coroutine.wrap(EFRF_fake_script)()
+local function RCNV_fake_script() -- INFYield.LocalScript 
+	local script = Instance.new('LocalScript', INFYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(RCNV_fake_script)()
+local function BAZVFIN_fake_script() -- SnowHub.LocalScript 
+	local script = Instance.new('LocalScript', SnowHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
+	end)
+end
+coroutine.wrap(BAZVFIN_fake_script)()
+local function DKWPEPJ_fake_script() -- BruhHub.LocalScript 
+	local script = Instance.new('LocalScript', BruhHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
+	end)
+end
+coroutine.wrap(DKWPEPJ_fake_script)()
+local function UMSQVU_fake_script() -- main.Toggle 
 	local script = Instance.new('LocalScript', main)
 
 	function PopupGui()
@@ -408,16 +475,16 @@ local function ZFXDSPG_fake_script() -- main.Toggle
 		end
 	end)
 end
-coroutine.wrap(ZFXDSPG_fake_script)()
-local function CPIDAK_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(UMSQVU_fake_script)()
+local function INRSWI_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.AccessUI:Destroy()
 	end)
 end
-coroutine.wrap(CPIDAK_fake_script)()
-local function DMOKVHV_fake_script() -- Back.LocalScript 
+coroutine.wrap(INRSWI_fake_script)()
+local function DOIFNVF_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local Page2 = script.Parent.Parent
@@ -428,4 +495,4 @@ local function DMOKVHV_fake_script() -- Back.LocalScript
 		Page2.Visible = false
 	end)
 end
-coroutine.wrap(DMOKVHV_fake_script)()
+coroutine.wrap(DOIFNVF_fake_script)()
