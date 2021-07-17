@@ -1,6 +1,6 @@
 --This is Edited In Visual Studio Code
 --Update 16/7/2021 Added INF Yield,Snow Hub And Bruh Hub
---Update 17/7/2021 Added Some New Scripts And Game Hub 
+--Update 17/7/2021 Added Some New Scripts And Game Hub
 
 --Loadstring Script:loadstring(game:HttpGet("https://raw.githubusercontent.com/nantapipat123452/Cool-Hub-V2/main/Script", true))()
 
@@ -29,6 +29,7 @@ local SnowHub = Instance.new("TextButton")
 local BruhHub = Instance.new("TextButton")
 local FhantomHub = Instance.new("TextButton")
 local TypicalHub = Instance.new("TextButton")
+local EZHub = Instance.new("TextButton")
 local hint = Instance.new("TextLabel")
 local Settings_2 = Instance.new("Frame")
 local Destroy = Instance.new("TextButton")
@@ -291,6 +292,19 @@ TypicalHub.TextScaled = true
 TypicalHub.TextSize = 14.000
 TypicalHub.TextWrapped = true
 
+EZHub.Name = "EZ Hub"
+EZHub.Parent = ScriptHubFrame
+EZHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EZHub.BorderSizePixel = 0
+EZHub.Position = UDim2.new(0.731531501, 0, 0.531380773, 0)
+EZHub.Size = UDim2.new(0, 120, 0, 34)
+EZHub.Font = Enum.Font.Arcade
+EZHub.Text = "EZ Hub"
+EZHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+EZHub.TextScaled = true
+EZHub.TextSize = 14.000
+EZHub.TextWrapped = true
+
 hint.Name = "hint"
 hint.Parent = main
 hint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -392,7 +406,7 @@ AnimeFightingSim.Image = "rbxassetid://7108358683"
 
 -- Scripts:
 
-local function XNNSB_fake_script() -- Home.LocalScript 
+local function JAXVZD_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -403,8 +417,8 @@ local function XNNSB_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.GameHub.Visible = false
 	end)
 end
-coroutine.wrap(XNNSB_fake_script)()
-local function GCWOGCG_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(JAXVZD_fake_script)()
+local function TYCTVY_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -415,8 +429,8 @@ local function GCWOGCG_fake_script() -- ScriptHub.LocalScript
 		script.Parent.Parent.Parent.GameHub.Visible = false
 	end)
 end
-coroutine.wrap(GCWOGCG_fake_script)()
-local function VNKQ_fake_script() -- Settings.LocalScript 
+coroutine.wrap(TYCTVY_fake_script)()
+local function WKDYB_fake_script() -- Settings.LocalScript 
 	local script = Instance.new('LocalScript', Settings)
 
 	local SettingsFrame = script.Parent.Parent.Parent.Settings
@@ -433,8 +447,8 @@ local function VNKQ_fake_script() -- Settings.LocalScript
 	end)
 	
 end
-coroutine.wrap(VNKQ_fake_script)()
-local function EOWI_fake_script() -- GameHub.LocalScript 
+coroutine.wrap(WKDYB_fake_script)()
+local function UIAYBY_fake_script() -- GameHub.LocalScript 
 	local script = Instance.new('LocalScript', GameHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -445,14 +459,14 @@ local function EOWI_fake_script() -- GameHub.LocalScript
 		script.Parent.Parent.Parent.ScriptHubFrame.Visible = 	false
 	end)
 end
-coroutine.wrap(EOWI_fake_script)()
-local function NXALQG_fake_script() -- user.LocalScript 
+coroutine.wrap(UIAYBY_fake_script)()
+local function HSOMMOG_fake_script() -- user.LocalScript 
 	local script = Instance.new('LocalScript', user)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(NXALQG_fake_script)()
-local function XFNZK_fake_script() -- main.Dragify 
+coroutine.wrap(HSOMMOG_fake_script)()
+local function XUNGDEZ_fake_script() -- main.Dragify 
 	local script = Instance.new('LocalScript', main)
 
 	local UIS = game:GetService("UserInputService")
@@ -493,16 +507,16 @@ local function XFNZK_fake_script() -- main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(XFNZK_fake_script)()
-local function NFZJ_fake_script() -- BloxHub.LocalScript 
+coroutine.wrap(XUNGDEZ_fake_script)()
+local function TFGDQEK_fake_script() -- BloxHub.LocalScript 
 	local script = Instance.new('LocalScript', BloxHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(NFZJ_fake_script)()
-local function RMPVYB_fake_script() -- Next.LocalScript 
+coroutine.wrap(TFGDQEK_fake_script)()
+local function JNIIVKY_fake_script() -- Next.LocalScript 
 	local script = Instance.new('LocalScript', Next)
 
 	local Page2 = script.Parent.Parent.Parent.ScriptHubPage2
@@ -513,64 +527,72 @@ local function RMPVYB_fake_script() -- Next.LocalScript
 		Page1.Visible = false
 	end)
 end
-coroutine.wrap(RMPVYB_fake_script)()
-local function HNQPZ_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(JNIIVKY_fake_script)()
+local function ZKABB_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 	end)
 end
-coroutine.wrap(HNQPZ_fake_script)()
-local function XPHQ_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(ZKABB_fake_script)()
+local function WXXZ_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(XPHQ_fake_script)()
-local function BDAK_fake_script() -- INFYield.LocalScript 
+coroutine.wrap(WXXZ_fake_script)()
+local function YNWBXU_fake_script() -- INFYield.LocalScript 
 	local script = Instance.new('LocalScript', INFYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(BDAK_fake_script)()
-local function UDZFNEA_fake_script() -- SnowHub.LocalScript 
+coroutine.wrap(YNWBXU_fake_script)()
+local function WPZRBM_fake_script() -- SnowHub.LocalScript 
 	local script = Instance.new('LocalScript', SnowHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
 	end)
 end
-coroutine.wrap(UDZFNEA_fake_script)()
-local function NRRNDKW_fake_script() -- BruhHub.LocalScript 
+coroutine.wrap(WPZRBM_fake_script)()
+local function MAIQ_fake_script() -- BruhHub.LocalScript 
 	local script = Instance.new('LocalScript', BruhHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(NRRNDKW_fake_script)()
-local function TUOEFGV_fake_script() -- FhantomHub.LocalScript 
+coroutine.wrap(MAIQ_fake_script)()
+local function ZQNK_fake_script() -- FhantomHub.LocalScript 
 	local script = Instance.new('LocalScript', FhantomHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 end
-coroutine.wrap(TUOEFGV_fake_script)()
-local function AARTVAA_fake_script() -- TypicalHub.LocalScript 
+coroutine.wrap(ZQNK_fake_script)()
+local function SDBFVA_fake_script() -- TypicalHub.LocalScript 
 	local script = Instance.new('LocalScript', TypicalHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/TypicalHub/main/source", true))()
 	end)
 end
-coroutine.wrap(AARTVAA_fake_script)()
-local function RLVORXQ_fake_script() -- main.Toggle 
+coroutine.wrap(SDBFVA_fake_script)()
+local function YGGRWCH_fake_script() -- EZHub.LocalScript 
+	local script = Instance.new('LocalScript', EZHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+	end)
+end
+coroutine.wrap(YGGRWCH_fake_script)()
+local function GGUIAA_fake_script() -- main.Toggle 
 	local script = Instance.new('LocalScript', main)
 
 	function PopupGui()
@@ -586,16 +608,16 @@ local function RLVORXQ_fake_script() -- main.Toggle
 		end
 	end)
 end
-coroutine.wrap(RLVORXQ_fake_script)()
-local function ESHRYC_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(GGUIAA_fake_script)()
+local function UEETW_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.AccessUI:Destroy()
 	end)
 end
-coroutine.wrap(ESHRYC_fake_script)()
-local function EMNCBP_fake_script() -- Back.LocalScript 
+coroutine.wrap(UEETW_fake_script)()
+local function HXYEK_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local Page2 = script.Parent.Parent
@@ -606,28 +628,28 @@ local function EMNCBP_fake_script() -- Back.LocalScript
 		Page2.Visible = false
 	end)
 end
-coroutine.wrap(EMNCBP_fake_script)()
-local function HLGIGYP_fake_script() -- FunkyFriday.LocalScript 
+coroutine.wrap(HXYEK_fake_script)()
+local function KHWP_fake_script() -- FunkyFriday.LocalScript 
 	local script = Instance.new('LocalScript', FunkyFriday)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 	end)
 end
-coroutine.wrap(HLGIGYP_fake_script)()
-local function YBCPZH_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(KHWP_fake_script)()
+local function UCVVXW_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
 	end)
 end
-coroutine.wrap(YBCPZH_fake_script)()
-local function OITG_fake_script() -- AnimeFightingSim.LocalScript 
+coroutine.wrap(UCVVXW_fake_script)()
+local function BLIVGBH_fake_script() -- AnimeFightingSim.LocalScript 
 	local script = Instance.new('LocalScript', AnimeFightingSim)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/MahScriptHub/master/AFS%20Remastered"))()
 	end)
 end
-coroutine.wrap(OITG_fake_script)()
+coroutine.wrap(BLIVGBH_fake_script)()
