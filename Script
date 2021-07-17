@@ -1,6 +1,6 @@
 --This is Edited In Visual Studio Code
 --Update 16/7/2021 Added INF Yield,Snow Hub And Bruh Hub
---Update 17/7/2021 Added Some New Scripts And Game Hub
+--Update 17/7/2021 Added Some New Scripts And Game Hub 
 
 --Loadstring Script:loadstring(game:HttpGet("https://raw.githubusercontent.com/nantapipat123452/Cool-Hub-V2/main/Script", true))()
 
