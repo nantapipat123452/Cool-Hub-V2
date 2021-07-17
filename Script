@@ -1,5 +1,8 @@
 --This is Edited In Visual Studio Code
- --Update 16/7/2021 Added INF Yield,Snow Hub And Bruh Hub
+--Update 16/7/2021 Added INF Yield,Snow Hub And Bruh Hub
+--Update 17/7/2021 Added Some New Scripts And Game Hub
+
+--Loadstring Script:loadstring(game:HttpGet("https://raw.githubusercontent.com/nantapipat123452/Cool-Hub-V2/main/Script", true))()
 
 -- Instances:
 
@@ -11,6 +14,7 @@ local Topbar = Instance.new("Frame")
 local Home = Instance.new("TextButton")
 local ScriptHub = Instance.new("TextButton")
 local Settings = Instance.new("TextButton")
+local GameHub = Instance.new("TextButton")
 local HomeFrame = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local user = Instance.new("TextLabel")
@@ -23,12 +27,18 @@ local DarkHub = Instance.new("TextButton")
 local INFYield = Instance.new("TextButton")
 local SnowHub = Instance.new("TextButton")
 local BruhHub = Instance.new("TextButton")
+local FhantomHub = Instance.new("TextButton")
+local TypicalHub = Instance.new("TextButton")
 local hint = Instance.new("TextLabel")
 local Settings_2 = Instance.new("Frame")
 local Destroy = Instance.new("TextButton")
 local ScriptHubPage2 = Instance.new("Frame")
 local Back = Instance.new("TextButton")
 local TextLabel_4 = Instance.new("TextLabel")
+local GameHub_2 = Instance.new("Frame")
+local FunkyFriday = Instance.new("ImageButton")
+local Arsenal = Instance.new("ImageButton")
+local AnimeFightingSim = Instance.new("ImageButton")
 
 --Properties:
 
@@ -93,12 +103,24 @@ Settings.Parent = Topbar
 Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Settings.BackgroundTransparency = 1.000
 Settings.BorderSizePixel = 0
-Settings.Position = UDim2.new(0.325131804, 0, -0.13636364, 0)
+Settings.Position = UDim2.new(0.485061467, 0, -0.13636364, 0)
 Settings.Size = UDim2.new(0, 97, 0, 28)
 Settings.Font = Enum.Font.Arcade
 Settings.Text = "Settings"
 Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
 Settings.TextSize = 14.000
+
+GameHub.Name = "GameHub"
+GameHub.Parent = Topbar
+GameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameHub.BackgroundTransparency = 1.000
+GameHub.BorderSizePixel = 0
+GameHub.Position = UDim2.new(0.33567664, 0, -0.13636364, 0)
+GameHub.Size = UDim2.new(0, 97, 0, 28)
+GameHub.Font = Enum.Font.Arcade
+GameHub.Text = "Game Hub"
+GameHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameHub.TextSize = 14.000
 
 HomeFrame.Name = "HomeFrame"
 HomeFrame.Parent = main
@@ -136,7 +158,7 @@ ScriptHubFrame.Name = "ScriptHubFrame"
 ScriptHubFrame.Parent = main
 ScriptHubFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ScriptHubFrame.BorderSizePixel = 0
-ScriptHubFrame.Position = UDim2.new(0.0123022851, 0, 0.228125006, 0)
+ScriptHubFrame.Position = UDim2.new(0.0123022851, 0, 0.206250012, 0)
 ScriptHubFrame.Size = UDim2.new(0, 555, 0, 239)
 ScriptHubFrame.Visible = false
 
@@ -243,6 +265,32 @@ BruhHub.TextScaled = true
 BruhHub.TextSize = 14.000
 BruhHub.TextWrapped = true
 
+FhantomHub.Name = "Fhantom Hub"
+FhantomHub.Parent = ScriptHubFrame
+FhantomHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FhantomHub.BorderSizePixel = 0
+FhantomHub.Position = UDim2.new(0.0576575994, 0, 0.531380773, 0)
+FhantomHub.Size = UDim2.new(0, 120, 0, 34)
+FhantomHub.Font = Enum.Font.Arcade
+FhantomHub.Text = "Fhantom Hub"
+FhantomHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+FhantomHub.TextScaled = true
+FhantomHub.TextSize = 14.000
+FhantomHub.TextWrapped = true
+
+TypicalHub.Name = "Typical Hub"
+TypicalHub.Parent = ScriptHubFrame
+TypicalHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TypicalHub.BorderSizePixel = 0
+TypicalHub.Position = UDim2.new(0.390990943, 0, 0.531380773, 0)
+TypicalHub.Size = UDim2.new(0, 120, 0, 34)
+TypicalHub.Font = Enum.Font.Arcade
+TypicalHub.Text = "Typical Hub"
+TypicalHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+TypicalHub.TextScaled = true
+TypicalHub.TextSize = 14.000
+TypicalHub.TextWrapped = true
+
 hint.Name = "hint"
 hint.Parent = main
 hint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -310,9 +358,41 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
+GameHub_2.Name = "GameHub"
+GameHub_2.Parent = main
+GameHub_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameHub_2.BorderSizePixel = 0
+GameHub_2.Position = UDim2.new(0, 0, 0.231250003, 0)
+GameHub_2.Size = UDim2.new(0, 569, 0, 234)
+GameHub_2.Visible = false
+
+FunkyFriday.Name = "FunkyFriday"
+FunkyFriday.Parent = GameHub_2
+FunkyFriday.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FunkyFriday.BackgroundTransparency = 1.000
+FunkyFriday.Position = UDim2.new(0.0333919153, 0, 0, 0)
+FunkyFriday.Size = UDim2.new(0, 78, 0, 78)
+FunkyFriday.Image = "rbxassetid://7108078099"
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = GameHub_2
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BackgroundTransparency = 1.000
+Arsenal.Position = UDim2.new(0.226713493, 0, 0, 0)
+Arsenal.Size = UDim2.new(0, 78, 0, 78)
+Arsenal.Image = "rbxassetid://7108090191"
+
+AnimeFightingSim.Name = "AnimeFightingSim"
+AnimeFightingSim.Parent = GameHub_2
+AnimeFightingSim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimeFightingSim.BackgroundTransparency = 1.000
+AnimeFightingSim.Position = UDim2.new(0.420035124, 0, 0, 0)
+AnimeFightingSim.Size = UDim2.new(0, 78, 0, 78)
+AnimeFightingSim.Image = "rbxassetid://7108358683"
+
 -- Scripts:
 
-local function FYWUVYC_fake_script() -- Home.LocalScript 
+local function XNNSB_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -320,10 +400,11 @@ local function FYWUVYC_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.ScriptHubFrame.Visible = false
 		script.Parent.Parent.Parent.Settings.Visible = false
 		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
+		script.Parent.Parent.Parent.GameHub.Visible = false
 	end)
 end
-coroutine.wrap(FYWUVYC_fake_script)()
-local function FMLR_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(XNNSB_fake_script)()
+local function GCWOGCG_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -331,10 +412,11 @@ local function FMLR_fake_script() -- ScriptHub.LocalScript
 		script.Parent.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.Parent.Settings.Visible = false
 		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
+		script.Parent.Parent.Parent.GameHub.Visible = false
 	end)
 end
-coroutine.wrap(FMLR_fake_script)()
-local function UMYTVIN_fake_script() -- Settings.LocalScript 
+coroutine.wrap(GCWOGCG_fake_script)()
+local function VNKQ_fake_script() -- Settings.LocalScript 
 	local script = Instance.new('LocalScript', Settings)
 
 	local SettingsFrame = script.Parent.Parent.Parent.Settings
@@ -347,17 +429,30 @@ local function UMYTVIN_fake_script() -- Settings.LocalScript
 		ScriptHubFrame.Visible = false
 		ExecutorFrame.Visible = false
 		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
+		script.Parent.Parent.Parent.GameHub.Visible = false
 	end)
 	
 end
-coroutine.wrap(UMYTVIN_fake_script)()
-local function AHASK_fake_script() -- user.LocalScript 
+coroutine.wrap(VNKQ_fake_script)()
+local function EOWI_fake_script() -- GameHub.LocalScript 
+	local script = Instance.new('LocalScript', GameHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GameHub.Visible = true
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.ScriptHubPage2.Visible = false
+		script.Parent.Parent.Parent.ScriptHubFrame.Visible = 	false
+	end)
+end
+coroutine.wrap(EOWI_fake_script)()
+local function NXALQG_fake_script() -- user.LocalScript 
 	local script = Instance.new('LocalScript', user)
 
 	script.Parent.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(AHASK_fake_script)()
-local function PJQK_fake_script() -- main.Dragify 
+coroutine.wrap(NXALQG_fake_script)()
+local function XFNZK_fake_script() -- main.Dragify 
 	local script = Instance.new('LocalScript', main)
 
 	local UIS = game:GetService("UserInputService")
@@ -398,16 +493,16 @@ local function PJQK_fake_script() -- main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(PJQK_fake_script)()
-local function HBJPK_fake_script() -- BloxHub.LocalScript 
+coroutine.wrap(XFNZK_fake_script)()
+local function NFZJ_fake_script() -- BloxHub.LocalScript 
 	local script = Instance.new('LocalScript', BloxHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bloxhub.xyz/script/loader"))()
 	end)
 end
-coroutine.wrap(HBJPK_fake_script)()
-local function ZUHY_fake_script() -- Next.LocalScript 
+coroutine.wrap(NFZJ_fake_script)()
+local function RMPVYB_fake_script() -- Next.LocalScript 
 	local script = Instance.new('LocalScript', Next)
 
 	local Page2 = script.Parent.Parent.Parent.ScriptHubPage2
@@ -418,48 +513,64 @@ local function ZUHY_fake_script() -- Next.LocalScript
 		Page1.Visible = false
 	end)
 end
-coroutine.wrap(ZUHY_fake_script)()
-local function OFYH_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(RMPVYB_fake_script)()
+local function HNQPZ_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 	end)
 end
-coroutine.wrap(OFYH_fake_script)()
-local function EFRF_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(HNQPZ_fake_script)()
+local function XPHQ_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(EFRF_fake_script)()
-local function RCNV_fake_script() -- INFYield.LocalScript 
+coroutine.wrap(XPHQ_fake_script)()
+local function BDAK_fake_script() -- INFYield.LocalScript 
 	local script = Instance.new('LocalScript', INFYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(RCNV_fake_script)()
-local function BAZVFIN_fake_script() -- SnowHub.LocalScript 
+coroutine.wrap(BDAK_fake_script)()
+local function UDZFNEA_fake_script() -- SnowHub.LocalScript 
 	local script = Instance.new('LocalScript', SnowHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
 	end)
 end
-coroutine.wrap(BAZVFIN_fake_script)()
-local function DKWPEPJ_fake_script() -- BruhHub.LocalScript 
+coroutine.wrap(UDZFNEA_fake_script)()
+local function NRRNDKW_fake_script() -- BruhHub.LocalScript 
 	local script = Instance.new('LocalScript', BruhHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(DKWPEPJ_fake_script)()
-local function UMSQVU_fake_script() -- main.Toggle 
+coroutine.wrap(NRRNDKW_fake_script)()
+local function TUOEFGV_fake_script() -- FhantomHub.LocalScript 
+	local script = Instance.new('LocalScript', FhantomHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+	end)
+end
+coroutine.wrap(TUOEFGV_fake_script)()
+local function AARTVAA_fake_script() -- TypicalHub.LocalScript 
+	local script = Instance.new('LocalScript', TypicalHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/TypicalHub/main/source", true))()
+	end)
+end
+coroutine.wrap(AARTVAA_fake_script)()
+local function RLVORXQ_fake_script() -- main.Toggle 
 	local script = Instance.new('LocalScript', main)
 
 	function PopupGui()
@@ -475,16 +586,16 @@ local function UMSQVU_fake_script() -- main.Toggle
 		end
 	end)
 end
-coroutine.wrap(UMSQVU_fake_script)()
-local function INRSWI_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(RLVORXQ_fake_script)()
+local function ESHRYC_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.AccessUI:Destroy()
 	end)
 end
-coroutine.wrap(INRSWI_fake_script)()
-local function DOIFNVF_fake_script() -- Back.LocalScript 
+coroutine.wrap(ESHRYC_fake_script)()
+local function EMNCBP_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local Page2 = script.Parent.Parent
@@ -495,4 +606,28 @@ local function DOIFNVF_fake_script() -- Back.LocalScript
 		Page2.Visible = false
 	end)
 end
-coroutine.wrap(DOIFNVF_fake_script)()
+coroutine.wrap(EMNCBP_fake_script)()
+local function HLGIGYP_fake_script() -- FunkyFriday.LocalScript 
+	local script = Instance.new('LocalScript', FunkyFriday)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	end)
+end
+coroutine.wrap(HLGIGYP_fake_script)()
+local function YBCPZH_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
+	end)
+end
+coroutine.wrap(YBCPZH_fake_script)()
+local function OITG_fake_script() -- AnimeFightingSim.LocalScript 
+	local script = Instance.new('LocalScript', AnimeFightingSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/MahScriptHub/master/AFS%20Remastered"))()
+	end)
+end
+coroutine.wrap(OITG_fake_script)()
